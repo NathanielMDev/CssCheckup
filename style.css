@@ -1,0 +1,87 @@
+body {
+    background-color:#2B2730;
+    margin: 0;
+    font-family: monospace, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    background-color:#E966A0;
+    text-align: right;
+    padding: .75rem 0;
+    border-bottom: solid 1px dimgray;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.4),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+header a {
+    color:white;
+    border: solid 1px white;
+    border-radius: 6px;
+    padding: .25rem .5rem;
+    margin-right: .5rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #9575DE;
+}
+
+h2 {
+    text-align: left;
+    margin-left: .5rem;
+    line-height: 1em;
+    color: white;
+}
+
+.term {
+    margin: auto;
+    padding: 1.5rem;
+    background-color: #6554AF;
+    border: solid 1px white;
+    border-radius: 6px;
+    color: white;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.4),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.term h3 {
+    margin: 0 0 .5rem;
+    text-align: center;
+}
+
+.term p {
+    margin: 0 1 .5rem;
+    text-align: center;
+}
+
+.term button {
+    width: 100%;
+    min-width: 300px;
+    margin: .75rem 0;
+    padding: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    border-radius: 6px;
+    color: white;
+    background-color:#6554AF;
+}
+
+.term button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #9575DE;
+}
